@@ -1,6 +1,6 @@
 import React from 'react';
 
-const NewChild = () => {
+const ChildForm = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const NewChild = () => {
     );
 };
 
-export default NewChild;
+export default ChildForm;
