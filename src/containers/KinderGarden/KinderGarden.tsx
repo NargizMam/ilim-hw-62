@@ -9,10 +9,10 @@ const KinderGarden = () => {
                 Детский сад
             </Typography>
             <Button variant="outlined" >
-                <NavLink to="kinder-garden//new-child">Ввести данные нового ребенка</NavLink>
+                <NavLink to="kinder-garden/new-child">Ввести данные нового ребенка</NavLink>
             </Button>
             <Button variant="outlined">
-                <NavLink to="kinder-garden//search">Найти ребенка</NavLink>
+                <NavLink to="kinder-garden/search">Найти ребенка</NavLink>
             </Button>
             <Outlet/>
         </Grid>
