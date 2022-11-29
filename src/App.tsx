@@ -1,6 +1,5 @@
 import React from 'react';
 import {Route, Routes} from "react-router-dom";
-import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./containers/Home/Home";
 import ChildForm from "./components/ChildForm/ChildForm";
@@ -47,9 +46,6 @@ function App() {
 
                 </Routes>
             </main>
-        <footer>
-            <Footer/>
-        </footer>
         </>
   )}
 

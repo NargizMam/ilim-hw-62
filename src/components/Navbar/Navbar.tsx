@@ -3,9 +3,9 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import './Navlink.css';
 import {Button, Grid} from "@mui/material";
 import {NavLink} from "react-router-dom";
+import './Navlink.css';
 
 const Navbar = () => {
     return (
@@ -25,10 +25,10 @@ const Navbar = () => {
                             ОК "ИЛИМ"
                         </NavLink>
                         <Grid>
-                            <Button variant="outlined">
+                            <Button variant="contained">
                                 <NavLink to="school">Школа</NavLink>
                             </Button>
-                            <Button variant="outlined">
+                            <Button variant="contained">
                                 <NavLink to="kinder-garden">Детский сад</NavLink>
                             </Button>
                         </Grid>
